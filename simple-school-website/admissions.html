@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions &amp; Intake | Apex International School</title>
+  <meta name="description" content="Begin your application process at Apex International School. Explore our step-by-step guides, tuition fee structures, and fill out our online inquiry form.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Premium Glassmorphism Navbar -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="navLogo">
+        <div class="logo-icon">A</div>
+        <div class="logo-text">
+          <h1>APEX</h1>
+          <p>International School</p>
+        </div>
+      </a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="mainNav">
+        <a href="index.html" id="linkHome">Home</a>
+        <a href="about.html" id="linkAbout">About</a>
+        <a href="academics.html" id="linkAcademics">Academics</a>
+        <a href="admissions.html" class="active" id="linkAdmissions">Admissions</a>
+        <a href="contact.html" id="linkContact">Contact Us</a>
+        <a href="admissions.html" class="btn btn-primary" id="btnNavApply">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Inner Page Hero -->
+  <section class="page-hero" id="admissionsHero">
+    <div class="container">
+      <h1>Admissions &amp; Fees</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &nbsp;/&nbsp; <span>Admissions</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admission Steps Flow -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <h2>How To Apply</h2>
+        <p>A simple guide to our admissions and student enrollment process.</p>
+      </div>
+
+      <div class="steps-grid" id="stepsFlowGroup">
+        <!-- Step 1 -->
+        <div class="step-card" id="step1">
+          <div class="step-num">01</div>
+          <h3>Submit Inquiry</h3>
+          <p>Fill out the online inquiry form below to share parent details, child's grade level, and specific academic interests.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card" id="step2">
+          <div class="step-num">02</div>
+          <h3>Campus Visit</h3>
+          <p>Arrange an in-person campus tour, explore our state-of-the-art labs, and hold an interview with our admissions coordinator.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card" id="step3">
+          <div class="step-num">03</div>
+          <h3>Assessment</h3>
+          <p>Prospective students attend a light cognitive assessment or placement evaluation to establish language and math baselines.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-card" id="step4">
+          <div class="step-num">04</div>
+          <h3>Enrollment</h3>
+          <p>Receive formal offer letter, complete documentation, arrange payment of registration fees, and welcome your child to Apex!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tuition Fees Structure -->
+  <section class="section section-alt" id="fees">
+    <div class="container" style="max-width: 900px;">
+      <div class="section-header">
+        <h2>Tuition &amp; Fees (2026 - 2027)</h2>
+        <p>Transparent fee structures detailing yearly tuition, technology resources, and registration details.</p>
+      </div>
+
+      <div class="table-responsive">
+        <table class="premium-table" id="tuitionTable">
+          <thead>
+            <tr>
+              <th>Grade Level</th>
+              <th>Annual Tuition</th>
+              <th>Tech &amp; Lab Fee</th>
+              <th>Enrollment Fee (One-Time)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Primary (Kindergarten - Grade 5)</td>
+              <td>$12,500</td>
+              <td>$450</td>
+              <td>$1,200</td>
+            </tr>
+            <tr>
+              <td>Middle School (Grades 6 - 8)</td>
+              <td>$14,800</td>
+              <td>$600</td>
+              <td>$1,200</td>
+            </tr>
+            <tr>
+              <td>High School (Grades 9 - 12)</td>
+              <td>$17,500</td>
+              <td>$850</td>
+              <td>$1,500</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="background-color: var(--color-white); padding: 24px; border-radius: var(--border-radius-md); box-shadow: var(--shadow-sm); margin-top: 30px;">
+        <h4 style="font-family: var(--font-sans); font-weight: 700; margin-bottom: 8px; color: var(--color-primary);"><i class="fa-solid fa-circle-info" style="color: var(--color-accent); margin-right: 6px;"></i> Additional Note</h4>
+        <p style="font-size: 0.9rem; color: var(--color-text-muted);">Annual tuition includes textbooks, library resources, and digital learning portal accesses. Sibling discounts of 10% are applicable starting from the second enrolled child. Flexible quarterly payment plans are available upon request.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admissions Inquiry Form -->
+  <section class="section" id="inquire">
+    <div class="container">
+      <div class="section-header">
+        <h2>Admissions Inquiry Form</h2>
+        <p>Have questions? Complete the details below, and an admissions representative will guide you through the process.</p>
+      </div>
+
+      <div class="form-container" id="inquiryFormWrapper">
+        <form class="interactive-form" id="admissionsInquiryForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="parentFirstName">Parent First Name *</label>
+              <input type="text" id="parentFirstName" class="form-control" placeholder="John" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="parentLastName">Parent Last Name *</label>
+              <input type="text" id="parentLastName" class="form-control" placeholder="Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="parentEmail">Email Address *</label>
+              <input type="email" id="parentEmail" class="form-control" placeholder="john.doe@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="parentPhone">Phone Number *</label>
+              <input type="tel" id="parentPhone" class="form-control" placeholder="(555) 000-0000" required>
+            </div>
+
+            <div class="form-group">
+              <label for="childName">Child's Name *</label>
+              <input type="text" id="childName" class="form-control" placeholder="Alex Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="childGrade">Intended Grade Level *</label>
+              <select id="childGrade" class="form-control" required>
+                <option value="" disabled selected>Select Grade</option>
+                <option value="kindergarten">Kindergarten</option>
+                <option value="grade1">Grade 1 - 5 (Primary)</option>
+                <option value="grade6">Grade 6 - 8 (Middle)</option>
+                <option value="grade9">Grade 9 - 12 (High School)</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="inquiryMessage">Additional Questions / Notes</label>
+              <textarea id="inquiryMessage" class="form-control" placeholder="Tell us about your child's interests or ask about boarding options..."></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;" id="btnSubmitInquiry">Submit Inquiry Details</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col footer-about" id="footerColAbout">
+        <h3>Apex International</h3>
+        <p>Nurturing young minds to build a brighter future. Empowering creative leaders, global thinkers, and ethical innovators.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col" id="footerColQuick">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About School</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col" id="footerColAdmissions">
+        <h3>Admissions</h3>
+        <ul class="footer-links">
+          <li><a href="admissions.html#process">How to Apply</a></li>
+          <li><a href="admissions.html#fees">Tuition &amp; Fees</a></li>
+          <li><a href="admissions.html#inquire">Inquiry Form</a></li>
+          <li><a href="contact.html#visit">Schedule a Tour</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col" id="footerColNews">
+        <h3>Newsletter</h3>
+        <p style="font-size: 0.9rem; margin-bottom: 16px;">Subscribe to get the latest updates on campus events.</p>
+        <form class="newsletter-form interactive-form" id="newsletterSubmitForm">
+          <input type="email" placeholder="Your email address" required aria-label="Newsletter email input" id="newsletterInput">
+          <button type="submit" class="btn btn-primary" style="padding: 10px 16px;" id="btnSubmitNewsletter">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Apex International School. All rights reserved. | <a href="#" style="text-decoration: underline;">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

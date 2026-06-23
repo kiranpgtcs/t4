@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Apex International School</title>
+  <meta name="description" content="Get in touch with Apex International School. View our physical address, school office operational hours, call numbers, or submit an online query form.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Premium Glassmorphism Navbar -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="navLogo">
+        <div class="logo-icon">A</div>
+        <div class="logo-text">
+          <h1>APEX</h1>
+          <p>International School</p>
+        </div>
+      </a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="mainNav">
+        <a href="index.html" id="linkHome">Home</a>
+        <a href="about.html" id="linkAbout">About</a>
+        <a href="academics.html" id="linkAcademics">Academics</a>
+        <a href="admissions.html" id="linkAdmissions">Admissions</a>
+        <a href="contact.html" class="active" id="linkContact">Contact Us</a>
+        <a href="admissions.html" class="btn btn-primary" id="btnNavApply">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Inner Page Hero -->
+  <section class="page-hero" id="contactHero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &nbsp;/&nbsp; <span>Contact Us</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Details & Form Grid -->
+  <section class="section" id="contactContent">
+    <div class="container contact-grid">
+      <!-- Left Column: Contact info and map -->
+      <div class="contact-info" id="contactDetailsCol">
+        <h2>Reach Out To Us</h2>
+        <p>Whether you are a prospective parent seeking information, a current student with a query, or a community partner, we would love to hear from you.</p>
+        
+        <div class="contact-item" id="contactItemAddress">
+          <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="contact-details">
+            <h3>Our Campus</h3>
+            <p>100 Apex Way, Academic Crest, AC 94043</p>
+          </div>
+        </div>
+
+        <div class="contact-item" id="contactItemPhone">
+          <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="contact-details">
+            <h3>Call Directory</h3>
+            <p>Admissions: +1 (555) 019-2830</p>
+            <p>Front Office: +1 (555) 019-2800</p>
+          </div>
+        </div>
+
+        <div class="contact-item" id="contactItemHours">
+          <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+          <div class="contact-details">
+            <h3>Operational Hours</h3>
+            <p>Monday - Friday: 8:00 AM - 4:00 PM</p>
+            <p>Saturday (Tours only): 9:00 AM - 1:00 PM</p>
+          </div>
+        </div>
+
+        <!-- CSS Map Simulation -->
+        <div class="map-simulation" id="visit" aria-label="Campus Map Location">
+          <div class="map-marker"></div>
+          <p style="font-weight: 700; color: var(--color-primary); font-size: 0.95rem; margin-bottom: 2px;">Apex International School</p>
+          <p style="font-size: 0.75rem; color: var(--color-text-muted);">100 Apex Way, Academic Crest</p>
+          <a href="#" class="btn btn-secondary btn-light" style="padding: 6px 14px; font-size: 0.8rem; margin-top: 12px;" id="btnOpenMap"><i class="fa-solid fa-map-location-dot"></i> Google Maps Directions</a>
+        </div>
+      </div>
+
+      <!-- Right Column: General Contact Form -->
+      <div class="form-container" id="contactFormCol" style="margin: 0;">
+        <span class="card-tag">Online Query</span>
+        <h2 style="margin-bottom: 20px; font-size: 1.8rem;">Send Us a Message</h2>
+        
+        <form class="interactive-form" id="generalContactForm">
+          <div class="form-group">
+            <label for="contactFullName">Full Name *</label>
+            <input type="text" id="contactFullName" class="form-control" placeholder="Jane Doe" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contactEmail">Email Address *</label>
+            <input type="email" id="contactEmail" class="form-control" placeholder="jane.doe@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contactSubject">Subject *</label>
+            <input type="text" id="contactSubject" class="form-control" placeholder="General Inquiry / Admission Question" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contactMessage">Your Message *</label>
+            <textarea id="contactMessage" class="form-control" placeholder="Write your message details here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;" id="btnSubmitContact">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col footer-about" id="footerColAbout">
+        <h3>Apex International</h3>
+        <p>Nurturing young minds to build a brighter future. Empowering creative leaders, global thinkers, and ethical innovators.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col" id="footerColQuick">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About School</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col" id="footerColAdmissions">
+        <h3>Admissions</h3>
+        <ul class="footer-links">
+          <li><a href="admissions.html#process">How to Apply</a></li>
+          <li><a href="admissions.html#fees">Tuition &amp; Fees</a></li>
+          <li><a href="admissions.html#inquire">Inquiry Form</a></li>
+          <li><a href="contact.html#visit">Schedule a Tour</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col" id="footerColNews">
+        <h3>Newsletter</h3>
+        <p style="font-size: 0.9rem; margin-bottom: 16px;">Subscribe to get the latest updates on campus events.</p>
+        <form class="newsletter-form interactive-form" id="newsletterSubmitForm">
+          <input type="email" placeholder="Your email address" required aria-label="Newsletter email input" id="newsletterInput">
+          <button type="submit" class="btn btn-primary" style="padding: 10px 16px;" id="btnSubmitNewsletter">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Apex International School. All rights reserved. | <a href="#" style="text-decoration: underline;">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
